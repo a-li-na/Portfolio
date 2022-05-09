@@ -1,0 +1,93 @@
+ .block1 {
+ 	background: linear-gradient(180deg, rgba(0,116,255,0.6138830532212884) 0%, rgba(29,41,253,0.5998774509803921) 50%, rgba(4,0,255,0.5858718487394958) 100%);
+ }
+
+ .block1:hover {
+ 	background: rgb(0,255,218);
+background: linear-gradient(180deg, rgba(0,255,218,0.6138830532212884) 0%, rgba(0,241,255,0.5998774509803921) 50%, rgba(0,176,255,0.5858718487394958) 100%);
+color: white;
+ }
+
+ .block2 {
+ 	background: linear-gradient(180deg, rgba(94,0,255,0.6138830532212884) 0%, rgba(126,29,253,0.5998774509803921) 50%, rgba(222,0,255,0.5858718487394958) 100%);
+ }
+
+.block2:hover {
+ 	background: rgb(0,255,218);
+background: linear-gradient(180deg, rgba(0,255,218,0.6138830532212884) 0%, rgba(0,241,255,0.5998774509803921) 50%, rgba(0,176,255,0.5858718487394958) 100%);
+color: white;
+ }
+
+ .href {
+ 	color: black;
+ }
+
+ .href:hover {
+ 	color: white;
+ }
+
+ .img {
+ 	border: none;
+ }
+
+ .img:hover {
+ 	border: solid;
+ 	border-color: #03fcfc;
+ 	border-width: 10px;
+ }
+
+ .figma {
+ 	color: white;
+ }
+
+ .figma:hover {
+ 	color: #5e03fc;
+ }
+
+ .text {
+    color: white;
+    font-size: 21px;
+ }
+ 
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+   .fonts {
+   font-size: 21px;
+   }
+}
+
+@media (min-width: 576px) {
+   .fonts {
+   font-size: 20px;
+   }
+}
+
+@media (min-width: 768px) {
+   .fonts {
+   font-size: 23px;
+   }
+}
+
+@media (min-width: 992px) {
+   .fonts {
+   font-size: 28px;
+   }
+}
+
+@media (min-width: 1200px) {
+   .fonts {
+   font-size: 30px;
+   }
+}
+
+@media (min-width: 1400px) {
+   .fonts {
+   font-size: 39px;
+   }
+}
